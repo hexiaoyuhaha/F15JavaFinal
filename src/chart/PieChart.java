@@ -1,6 +1,6 @@
 package chart;
 
-import util.PieChartUtils;
+import util.dual;
 import java.awt.Color;
 
 import javax.swing.JFrame;
@@ -26,24 +26,24 @@ public class PieChart {
 
 	public DefaultPieDataset createDataset() {
                 DataInterface data = new DataInterface(name);
-				String[] categories = { "Male", "Female" };
-                Object[] datas = new Object[2]; 
+		String[] categories = { "Male", "Female" };
+                int[] datas = new int[2]; 
                 datas[0] = data.getNumOfMale();
                 datas[1] = data.getNumOfFemale();
 		//Object[] datas = { 700, 300 };
-		DefaultPieDataset dataset = PieChartUtils.createDefaultPieDataset(categories, datas);
+		DefaultPieDataset dataset = dual.createDefaultPieDataset(categories, datas);
 		return dataset;
 	}
 
 	public ChartPanel createChart() {
-		JFreeChart chart = ChartFactory.createPieChart("Contents of Male and Female Ratio", createDataset());
+		JFreeChart chart = ChartFactory.createRingChart("Contents of Male and Female Ratio", createDataset(),true,false,false);
 		
-		PieChartUtils.setPieRender(chart.getPlot());
+		dual.setPieRender(chart.getPlot());
                 
 		// plot.setSimpleLabels(true);
 		// plot.setLabelGenerator(null);
 		chart.getLegend().setFrame(new BlockBorder(Color.WHITE));
-		chart.getLegend().setPosition(RectangleEdge.RIGHT);
+		chart.getLegend().setPosition(RectangleEdge.BOTTOM);
 		ChartPanel chartPanel = new ChartPanel(chart);
 		return chartPanel;
 	}

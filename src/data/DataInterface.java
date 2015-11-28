@@ -15,9 +15,13 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 /**
- *
- * @author April
+ * This class provides data to the chart.
+ * @author Yadi(April) Yang, Xiaoyu He, Zhongjiong Wang
+ * @version  1.0
+ * @since 28/11/2015
+
  */
+
 public class DataInterface {
     int numOfGender = 0;
     String fileName = "";
@@ -25,6 +29,10 @@ public class DataInterface {
     String[][] divide;
     int size;
     
+    /**
+     * Constructor of the DataInterface
+     * @param fileName
+     */
     public DataInterface(String fileName) {
         int i;
         this.fileName = fileName;
@@ -38,7 +46,11 @@ public class DataInterface {
         }   
     }
     
-	public ArrayList<NumCountryPair> getTop5NumCountryPair() {
+    /**
+     * return the number of student from 5 country that has most student.
+     * @return the object of country
+     */
+    public ArrayList<NumCountryPair> getTop5NumCountryPair() {
 		ArrayList<NumCountryPair> top5Country = new ArrayList<NumCountryPair>();
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		for(int i = 0; i < divide.length; i++) { //6
@@ -48,10 +60,12 @@ public class DataInterface {
 		TreeMap<String, Integer> sortedMap = new TreeMap<String, Integer>(new MapComparator(map));
 		sortedMap.putAll(map);
 		Iterator it = sortedMap.entrySet().iterator();
-		while (it.hasNext()) {
+                int i=0;
+		while (it.hasNext() && i<5) {
 			Map.Entry<String, Integer> pair = (Map.Entry<String, Integer>)it.next();
 			System.out.println(pair.getKey() + " = " + pair.getValue());
 			top5Country.add(new NumCountryPair(pair.getValue(), pair.getKey()));
+                        i++;
 		}
 		return top5Country;
 	}
@@ -68,6 +82,11 @@ public class DataInterface {
 		}
 	}
 			
+    /**
+     * Get number of male or female.
+     * @param gender
+     * @return numOfGender
+     */
     public int getNum(String gender) {
         int i;
         for(i=1;i<size;i++){
@@ -78,17 +97,28 @@ public class DataInterface {
         return numOfGender;
     }
 
+    /**
+     * Get the number of male
+     * @return number of male
+     */
     public int getNumOfMale(){
 	return getNum("Male");
     }
     
+    /**
+     *Get the number of female
+     * @return number of female
+     */
     public int getNumOfFemale(){
         return getNum("Female");
     }
 	
-
-    
-	public int[] getGPADistribution(String gender) {
+    /**
+     * Get the distribution of GPA
+     * @param gender
+     * @return an integer array
+     */
+    public int[] getGPADistribution(String gender) {
         int i;
         int[] gpaDistribution = new int[7];
         for(int m = 0; m<gpaDistribution.length;m++) {
@@ -121,14 +151,26 @@ public class DataInterface {
         return gpaDistribution; 
     }
 	
+    /**
+     * Get the distribution of GPA of female
+     * @return the distribution of GPA of female
+     */
     public int[] getGPADistributionFemale() {
 		return getGPADistribution("Female");
 	}
     
+    /**
+       Get the distribution of GPA of male
+     * @return the distribution of GPA of male
+     */
     public int[] getGPADistributionMale() {
 		return getGPADistribution("Male");
 	}
      
+    /**
+     * Get the number of students who are full time students.
+     * @return the number of students who are full time students.
+     */
     public int[] getNumOfPartTimeAndFullTime() {
         int i;
         int[] num = {0,0};
@@ -147,6 +189,12 @@ public class DataInterface {
         return num;
     }
 
+    /**
+     * Get number of enrollment by year.
+     * @param startYear
+     * @param endYear
+     * @return an integer array of students.
+     */
     public int[] getNumOfEnrolledByYear(int startYear, int endYear) {
         int i,j;
         int year;
@@ -156,7 +204,7 @@ public class DataInterface {
             year = Integer.parseInt(divide[i][9]);
             for(j = 0; j<yearArray.length; j++) {
                 
-                if(year==startYear+j) {
+                if(year==(startYear+j)) {
                     yearArray[j]++;
                 }
             }
@@ -186,6 +234,11 @@ public class DataInterface {
         
     }
     
+    /**
+     * Get number of students by major.
+     * @param gender
+     * @return an array of number of students by major.
+     */
     public int[] getNumByMajor(String gender) {
         int i;
         int[] major = {0,0,0,0,0,0};
@@ -208,19 +261,37 @@ public class DataInterface {
         return major;
     }
 
+    /**
+     * Get number
+     * @return
+     */
     public int[] getNumOfMaleByMajor() {
         return getNumByMajor("Male");
     }
     
+    /**
+     *
+     * @return
+     */
     public int[] getNumOfFemaleByMajor() {
         return getNumByMajor("Male");
     }
  
+    /**
+     *
+     * @return
+     */
     public String[] getMajorName() {
         String[] names = {"MSIT", "Global MISM", "Financial Engineering", "MS in CS", "MBA", "MSIPPM"};
         return names;
     }
     
+    /**
+     *
+     * @param startYear
+     * @param endYear
+     * @return
+     */
     public int[] getNUmOfDroppedByYear(int startYear, int endYear) {
         int i,j;
         int year;
@@ -235,7 +306,7 @@ public class DataInterface {
             divide[i] = originData.get(i).split(",");
             year = Integer.parseInt(divide[i][9]);
             for(j = 0; j<yearArray.length; j++) {
-                if(year==startYear+j) {
+                if(year==(startYear+j)) {
                     if(divide[i][22].equals("No")) {
                         yearArray[j]++;
                     }

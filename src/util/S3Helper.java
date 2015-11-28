@@ -58,7 +58,7 @@ public class S3Helper {
 		
 	public void downLoadFile(String downloadFileName) throws IOException {
 		System.out.println("Downloading a new object" + downloadFileName);
-        S3Object object = s3client.getObject(
+                S3Object object = s3client.getObject(
                   new GetObjectRequest(bucketName, downloadFileName));
 		InputStream objectData = object.getObjectContent();
 		// Process the objectData stream.

@@ -11,7 +11,7 @@ package data;
  */
 public class TestMain {
     public static void main(String[] args) throws Exception {
-        DataInterface data = new DataInterface("newData1.csv");
+        DataInterface data = new DataInterface("newData.csv");
         Regression reg = new Regression();
         RegressionDrop reg2 = new RegressionDrop();
         
@@ -23,7 +23,7 @@ public class TestMain {
         reg.regression();
         data.getNumOfMaleByMajor();
         data.getNumOfFemaleByMajor();
-        data.getNUmOfDroppedByYear(2008, 2014);
+        data.getNUmOfDroppedByYear(2008, 2013);
         reg2.regression();
 
         

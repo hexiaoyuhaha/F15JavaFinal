@@ -16,4 +16,12 @@ public class NumCountryPair {
         this.num = num;
         this.countryName = countryName;
     }
+    
+    public int getNum(){
+        return num;
+    }
+    
+    public String getCountryName(){
+        return countryName;
+    }
 }

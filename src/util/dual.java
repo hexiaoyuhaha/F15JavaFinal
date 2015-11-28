@@ -134,9 +134,33 @@ public class dual {
 		}
 		return dataset;
 	}
+        
+        public static DefaultPieDataset createDefaultPieDataset(String[] categories, int[] datas) {
+            DefaultPieDataset dataset = new DefaultPieDataset();
+            for (int i = 0; i < categories.length && categories != null; i++) {
+                int value = datas[i];
+                dataset.setValue(categories[i], value);
+            }
+            return dataset;
+        }
+
+	public static void setPieRender(Plot plot) {
+            plot.setNoDataMessage(NO_DATA_MSG);
+            plot.setInsets(new RectangleInsets(10, 10, 5, 10));
+            PiePlot piePlot = (PiePlot) plot;
+            piePlot.setInsets(new RectangleInsets(0, 0, 0, 0));
+	    piePlot.setCircular(true);
+
+            //piePlot.setLabelGap(0.01);
+            //piePlot.setInteriorGap(0.05D);
+            piePlot.setLegendItemShape(new Rectangle(10, 10));
+            piePlot.setIgnoreNullValues(true);
+            piePlot.setLabelBackgroundPaint(null);
+            piePlot.setLabelShadowPaint(null);
+            piePlot.setLabelOutlinePaint(null);
+            piePlot.setShadowPaint(null);
+            // 0:category 1:value:2 :percentage
+            piePlot.setLabelGenerator(new StandardPieSectionLabelGenerator("{0}:{2}"));
+	}
     
 }
-
-
-
-
