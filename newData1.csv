@@ -1,0 +1,30 @@
+id,First_Name,Last_Name,Gender,Date_Of_Birth,Email,Citizenship,Country_Of_Birth,Language,Year_of_Arrival_USA ,Course _information,Postgraduate_or_Undergraduate ,Type_of_attendance ,Mode_of_attendance ,Course_GPA,Course_Completion_Year,Field_of_Education,Basis _for_admission ,Equity_Data ,Entrance_Score,Location_permanent_homeresidence,highest_education_prior_commencement ,Graduation
+1,Phyllis,Jackson,Female,9/18/1994,pjackson0@slate.com,Russia,Russia,English,2010,MSIT,UG,part_time,internal,0.03825073207444013,2012,Marketing,GRE,Low-Income,0,Russia,UG,Yes
+2,Maria,Knight,Female,2/25/1988,mknight1@smh.com.au,Canada,Canada,French,2013,Global MISM,PG,full-time,external,-0.015740604931024443,2015,Public Policy,GRE,Remote Region,0,Canada,PG,Yes
+3,Anthony,Pierce,Male,9/2/1993,apierce2@webeden.co.uk,Mongolia,Mongolia,French,2008,Financial Engineering,UG,full-time,multi-modal,-0.025850204760951165,2014,Finance,GRE,Remote Region,0,Mongolia,PG,Yes
+4,Joseph,Burton,Male,2/13/1993,jburton3@fema.gov,United States,United States,French,2008,Global MISM,PG,part_time,external,0.09426209083356096,2014,IT,GRE,Low-Income,0,United States,UG,Yes
+5,Lisa,Gray,Female,2/21/1993,lgray4@ezinearticles.com,Egypt,Egypt,Mandarin,2008,MSIT,UG,full-time,external,3.3133287298177185,2008,Business,GMAT,Disability,687,Egypt,UG,Yes
+6,Kelly,Cooper,Female,10/17/1992,kcooper5@bizjournals.com,Azerbaijan,Azerbaijan,French,2008,MSIT,UG,full-time,internal,3.499761143375606,2013,Public Policy,GMAT,Remote Region,704,Azerbaijan,PG,Yes
+7,Louis,Stewart,Male,1/19/1988,lstewart6@bloglines.com,Cape Verde,Cape Verde,English,2010,MS in CS,PG,full-time,multi-modal,3.384032232756482,2009,Computer Science,GMAT,Low-Income,664,Cape Verde,UG,Yes
+8,Jane,Brown,Female,1/24/1986,jbrown7@reverbnation.com,Thailand,Thailand,Mandarin,2009,Global MISM,UG,part_time,internal,0.00299404586166932,2015,Computer Science,GRE,Remote Region,0,Thailand,PG,Yes
+9,William,Ruiz,Male,5/22/1981,wruiz8@bloglovin.com,France,France,French,2014,Global MISM,UG,part_time,multi-modal,0.07669434077932787,2012,Computer Science,GRE,Low-Income,0,France,PG,Yes
+29,Lori,Howell,Male,8/28/1991,lhowells@bizjournals.com,Canada,Canada,French,2008,MS in CS,PG,part_time,multi-modal,3.67,2010,Computer Science,SAT,Disability,721,Canada,UG,Yes
+39,Sharon,Wheeler,Male,1/17/1984,swheeler12@unicef.org,China,China,English,2007,MS in CS,PG,part_time,multi-modal,3.58,2008,Marketing,SAT,Low-Income,690,China,UG,Yes
+40,Eric,Patterson,Male,4/5/1993,epatterson13@whitehouse.gov,China,China,English,2010,MS in CS,PG,full-time,multi-modal,0.05817156994934016,2008,Business,GRE,Remote Region,0,China,PG,Yes
+42,Henry,Dixon,Male,6/28/1985,hdixon15@networkadvertising.org,Venezuela,Venezuela,English,2007,MS in CS,PG,part_time,internal,3.6,2013,IT,SAT,Remote Region,678,Venezuela,UG,Yes
+51,Jack,Alvarez,Male,10/22/1985,jalvarez1e@europa.eu,Mauritania,Mauritania,French,2014,MS in CS,UG,part_time,external,-0.07874752111911089,2010,IT,GRE,Disability,0,Mauritania,UG,Yes
+72,Raymond,Ellis,Male,2/20/1989,rellis1z@hostgator.com,Russia,Russia,Mandarin,2014,MS in CS,UG,full-time,external,3.89,2007,Finance,SAT,Disability,677,Russia,PG,Yes
+83,William,Knight,Male,5/20/1986,wknight2a@indiegogo.com,France,France,Mandarin,2007,MS in CS,PG,part_time,multi-modal,3.5,2013,Marketing,SAT,Disability,774,France,PG,Yes
+92,Jennifer,Stanley,Male,12/23/1984,jstanley2j@livejournal.com,Russia,Russia,French,2008,MS in CS,UG,full-time,external,3.513987558515624,2015,Computer Science,GMAT,Low-Income,694,Russia,UG,Yes
+95,Janet,Woods,Male,2/2/1986,jwoods2m@dedecms.com,Malaysia,Malaysia,German,2011,MS in CS,UG,full-time,multi-modal,3.95,2009,Public Policy,SAT,Remote Region,605,Malaysia,PG,Yes
+102,Bruce,Simpson,Male,10/22/1983,bsimpson2t@sogou.com,Colombia,Colombia,German,2009,MS in CS,UG,part_time,multi-modal,3.404474625180131,2014,Finance,GMAT,Disability,685,Colombia,PG,Yes
+108,Debra,Russell,Male,3/15/1981,drussell2z@goodreads.com,Croatia,Croatia,Mandarin,2012,MS in CS,PG,full-time,internal,-0.04512278136082082,2015,Marketing,GRE,Remote Region,0,Croatia,UG,Yes
+140,Maria,Lynch,Male,4/1/1984,mlynch3v@dedecms.com,Vietnam,Vietnam,Mandarin,2015,MS in CS,PG,full-time,external,3.3268796800833136,2010,IT,GMAT,Remote Region,688,Vietnam,UG,No
+142,Cheryl,Ramos,Male,6/19/1984,cramos3x@furl.net,Greece,Greece,Mandarin,2014,MS in CS,PG,part_time,multi-modal,3.08,2009,IT,SAT,Disability,788,Greece,PG,No
+151,Kimberly,Morales,Male,6/2/1985,kmorales46@mapy.cz,Philippines,Philippines,English,2011,MS in CS,PG,part_time,external,3.76,2011,Computer Science,SAT,Low-Income,732,Philippines,PG,No
+154,Lillian,Berry,Male,3/23/1984,lberry49@adobe.com,Lithuania,Lithuania,English,2010,MS in CS,UG,part_time,multi-modal,-0.058927277448376274,2007,Business,GRE,Remote Region,0,Lithuania,PG,No
+161,Juan,Williamson,Female,11/3/1983,jwilliamson4g@apple.com,Sweden,Sweden,English,2007,MS in CS,PG,full-time,external,3.582268605422599,2014,Computer Science,GMAT,Remote Region,714,Sweden,UG,No
+163,Charles,Gibson,Female,5/12/1988,cgibson4i@youtu.be,France,France,English,2008,MS in CS,UG,part_time,multi-modal,3.11,2012,Business,SAT,Low-Income,609,France,UG,No
+167,Ashley,Gardner,Female,6/12/1984,agardner4m@lycos.com,Brazil,Brazil,English,2015,MS in CS,UG,part_time,external,3.0159424038538685,2014,Business,GMAT,Low-Income,626,Brazil,PG,No
+178,Tammy,Richardson,Female,5/2/1981,trichardson4x@parallels.com,Poland,Poland,German,2010,MS in CS,PG,full-time,multi-modal,3.64,2008,Finance,SAT,Low-Income,768,Poland,PG,No
+180,Paula,Lee,Female,4/4/1989,plee4z@jigsy.com,Russia,Russia,French,2013,MS in CS,PG,full-time,external,3.65,2011,Business,SAT,Disability,631,Russia,PG,No

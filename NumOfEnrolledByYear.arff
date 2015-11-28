@@ -1,0 +1,14 @@
+@relation NumOfEnrolledByYear
+
+@attribute Year numeric
+@attribute NumberOfEnrolled numeric
+
+@data
+2008,107
+2009,115
+2010,96
+2011,103
+2012,123
+2013,113
+2014,115
+2015,?

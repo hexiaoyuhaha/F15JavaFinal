@@ -1,0 +1,1001 @@
+id,First_Name,Last_Name,Gender,Date_Of_Birth,Email,Citizenship,Country_Of_Birth,Language,Year_of_Arrival_USA ,Course _information,Postgraduate_or_Undergraduate ,Type_of_attendance ,Mode_of_attendance ,Course_GPA,Course_Completion_Year,Field_of_Education,Basis _for_admission ,Equity_Data ,Entrance_Score,Location_permanent_homeresidence,highest_education_prior_commencement ,Graduation
+1,Phyllis,Jackson,Female,9/18/1994,pjackson0@slate.com,Russia,Russia,English,2010,MSIT,UG,part_time,internal,3.49,2012,Marketing,GRE,Low-Income,610,Russia,UG,Yes
+2,Maria,Knight,Female,2/25/1988,mknight1@smh.com.au,Canada,Canada,French,2013,Global MISM,PG,full-time,external,3.1,2015,Public Policy,GRE,Remote Region,635,Canada,PG,Yes
+3,Anthony,Pierce,Male,9/2/1993,apierce2@webeden.co.uk,Mongolia,Mongolia,French,2008,Financial Engineering,UG,full-time,multi-modal,3.66,2014,Finance,GRE,Remote Region,695,Mongolia,PG,Yes
+4,Joseph,Burton,Male,2/13/1993,jburton3@fema.gov,United States,United States,French,2008,Global MISM,PG,part_time,external,3.08,2014,IT,GRE,Low-Income,777,United States,UG,Yes
+5,Lisa,Gray,Female,2/21/1993,lgray4@ezinearticles.com,Egypt,Egypt,Mandarin,2008,MSIT,UG,full-time,external,3.5,2008,Business,GMAT,Disability,687,Egypt,UG,Yes
+6,Kelly,Cooper,Female,10/17/1992,kcooper5@bizjournals.com,Azerbaijan,Azerbaijan,French,2008,MSIT,UG,full-time,internal,3.73,2013,Public Policy,GMAT,Remote Region,704,Azerbaijan,PG,Yes
+7,Louis,Stewart,Male,1/19/1988,lstewart6@bloglines.com,Cape Verde,Cape Verde,English,2010,MS in CS,PG,full-time,multi-modal,3.74,2009,Computer Science,GMAT,Low-Income,664,Cape Verde,UG,Yes
+8,Jane,Brown,Female,1/24/1986,jbrown7@reverbnation.com,Thailand,Thailand,Mandarin,2009,Global MISM,UG,part_time,internal,3.84,2015,Computer Science,GRE,Remote Region,667,Thailand,PG,Yes
+9,William,Ruiz,Male,5/22/1981,wruiz8@bloglovin.com,France,France,French,2014,Global MISM,UG,part_time,multi-modal,3.94,2012,Computer Science,GRE,Low-Income,782,France,PG,Yes
+10,Sharon,Matthews,Female,1/24/1983,smatthews9@epa.gov,Peru,Peru,French,2008,Global MISM,UG,part_time,external,3,2014,Business,GMAT,Disability,603,Peru,PG,Yes
+11,Benjamin,Alvarez,Male,1/16/1988,balvareza@ebay.co.uk,Brazil,Brazil,Mandarin,2013,Global MISM,UG,part_time,internal,3.56,2015,Computer Science,SAT,Low-Income,764,Brazil,UG,Yes
+12,Beverly,Gonzalez,Female,7/30/1986,bgonzalezb@hud.gov,Russia,Russia,English,2014,MSIT,UG,part_time,internal,3.55,2010,IT,GRE,Disability,777,Russia,PG,Yes
+13,Brian,Larson,Male,6/15/1984,blarsonc@examiner.com,Indonesia,Indonesia,German,2015,MISM,PG,full-time,internal,3.34,2014,IT,GMAT,Low-Income,793,Indonesia,PG,Yes
+14,Ann,Pierce,Female,12/6/1988,apierced@google.com.hk,Montenegro,Montenegro,Mandarin,2007,MBA,UG,full-time,multi-modal,3.52,2011,Finance,SAT,Remote Region,606,Montenegro,PG,Yes
+15,Jacqueline,Mcdonald,Female,10/2/1988,jmcdonalde@soundcloud.com,Philippines,Philippines,German,2012,MS in CS,UG,full-time,external,3.31,2015,Finance,GRE,Disability,765,Philippines,PG,Yes
+16,Terry,Perry,Male,5/7/1990,tperryf@auda.org.au,Colombia,Colombia,English,2008,MSIT,PG,full-time,internal,3.59,2015,IT,GRE,Remote Region,748,Colombia,UG,Yes
+17,Jason,Wallace,Male,4/26/1991,jwallaceg@army.mil,Indonesia,Indonesia,English,2010,MSIPPM,UG,part_time,internal,3.05,2010,Finance,GMAT,Disability,734,Indonesia,PG,Yes
+18,Beverly,Stevens,Female,7/31/1991,bstevensh@sun.com,Iran,Iran,English,2013,MISM,PG,full-time,internal,3.49,2007,IT,GMAT,Disability,629,Iran,UG,Yes
+19,Ruby,Weaver,Female,1/14/1987,rweaveri@ocn.ne.jp,China,China,French,2013,MBA,UG,full-time,multi-modal,3.52,2013,IT,GRE,Low-Income,749,China,PG,Yes
+20,Jesse,Day,Male,12/19/1986,jdayj@uol.com.br,Sweden,Sweden,English,2008,Financial Engineering,UG,full-time,external,3.98,2010,Public Policy,GRE,Low-Income,707,Sweden,UG,Yes
+21,Jeffrey,Olson,Male,12/7/1988,jolsonk@example.com,Cuba,Cuba,Mandarin,2014,MSIPPM,PG,full-time,internal,3.91,2009,Public Policy,GRE,Low-Income,631,Cuba,PG,Yes
+22,Justin,Stone,Male,2/15/1984,jstonel@mapquest.com,Macedonia,Macedonia,French,2009,MS in CS,PG,full-time,internal,3.1,2011,Public Policy,GRE,Disability,657,Macedonia,PG,Yes
+23,Richard,Matthews,Male,7/19/1985,rmatthewsm@cnet.com,China,China,English,2011,Financial Engineering,PG,full-time,multi-modal,3.06,2009,IT,SAT,Disability,662,China,PG,Yes
+24,Cheryl,Bailey,Female,8/18/1982,cbaileyn@google.de,China,China,English,2007,MS in CS,UG,part_time,multi-modal,3.71,2011,Business,SAT,Low-Income,704,China,PG,Yes
+25,Judith,Cruz,Female,1/20/1991,jcruzo@usatoday.com,Luxembourg,Luxembourg,Mandarin,2012,MBA,UG,full-time,internal,3.73,2015,Public Policy,GMAT,Low-Income,640,Luxembourg,UG,Yes
+26,Samuel,Pierce,Male,5/7/1985,spiercep@goo.ne.jp,China,China,German,2008,MSIPPM,UG,full-time,internal,3.01,2010,Marketing,GMAT,Disability,706,China,PG,Yes
+27,Jonathan,Gomez,Male,5/17/1993,jgomezq@cisco.com,Russia,Russia,German,2008,Global MISM,UG,part_time,internal,3.55,2009,Public Policy,GRE,Low-Income,622,Russia,PG,Yes
+28,Carolyn,Chapman,Female,9/26/1982,cchapmanr@github.com,Brazil,Brazil,English,2015,MBA,UG,full-time,internal,3.57,2008,Finance,GRE,Low-Income,774,Brazil,UG,Yes
+29,Lori,Howell,Female,8/28/1991,lhowells@bizjournals.com,Canada,Canada,French,2008,MS in CS,PG,part_time,multi-modal,3.67,2010,Computer Science,SAT,Disability,721,Canada,UG,Yes
+30,Debra,Vasquez,Female,2/18/1982,dvasquezt@sciencedaily.com,Russia,Russia,German,2013,MISM,UG,part_time,internal,3.49,2013,Public Policy,GMAT,Remote Region,707,Russia,UG,Yes
+31,Kelly,Webb,Female,5/29/1992,kwebbu@msu.edu,South Africa,South Africa,French,2014,Financial Engineering,UG,part_time,multi-modal,3.15,2015,Computer Science,GMAT,Disability,635,South Africa,PG,Yes
+32,Carl,Jenkins,Male,3/30/1992,cjenkinsv@imdb.com,Honduras,Honduras,Mandarin,2011,MISM,UG,part_time,external,3.15,2007,Public Policy,SAT,Low-Income,740,Honduras,PG,Yes
+33,Douglas,Matthews,Male,8/25/1989,dmatthewsw@vkontakte.ru,Brazil,Brazil,German,2008,MSIPPM,UG,full-time,internal,3.63,2010,Marketing,SAT,Remote Region,666,Brazil,PG,Yes
+34,Craig,West,Male,10/29/1981,cwestx@bbb.org,Indonesia,Indonesia,English,2012,MSIT,PG,full-time,external,3.27,2008,Marketing,GMAT,Disability,733,Indonesia,UG,Yes
+35,Denise,Woods,Female,1/30/1986,dwoodsy@ucoz.ru,Portugal,Portugal,German,2014,MSIT,PG,full-time,external,3.06,2014,IT,GMAT,Remote Region,787,Portugal,PG,Yes
+36,Cheryl,Little,Female,8/28/1985,clittlez@google.co.uk,Angola,Angola,Mandarin,2013,MSIPPM,UG,full-time,external,3.05,2010,IT,GRE,Low-Income,620,Angola,PG,Yes
+37,Louis,Kelley,Male,11/10/1987,lkelley10@buzzfeed.com,United States,United States,French,2012,MBA,PG,full-time,external,3.03,2012,Computer Science,GMAT,Disability,758,United States,PG,Yes
+38,Debra,Evans,Female,3/30/1989,devans11@japanpost.jp,Indonesia,Indonesia,English,2010,MSIT,UG,full-time,external,3,2012,Computer Science,GMAT,Remote Region,717,Indonesia,UG,Yes
+39,Sharon,Wheeler,Female,1/17/1984,swheeler12@unicef.org,China,China,English,2007,MS in CS,PG,part_time,multi-modal,3.58,2008,Marketing,SAT,Low-Income,690,China,UG,Yes
+40,Eric,Patterson,Male,4/5/1993,epatterson13@whitehouse.gov,China,China,English,2010,MS in CS,PG,full-time,multi-modal,3.58,2008,Business,GRE,Remote Region,646,China,PG,Yes
+41,Gary,King,Male,6/3/1984,gking14@instagram.com,Pakistan,Pakistan,German,2013,Global MISM,UG,part_time,internal,3.9,2011,IT,SAT,Remote Region,794,Pakistan,PG,Yes
+42,Henry,Dixon,Male,6/28/1985,hdixon15@networkadvertising.org,Venezuela,Venezuela,English,2007,MS in CS,PG,part_time,internal,3.6,2013,IT,SAT,Remote Region,678,Venezuela,UG,Yes
+43,Mildred,Phillips,Female,3/15/1993,mphillips16@photobucket.com,South Africa,South Africa,Mandarin,2013,MBA,UG,part_time,internal,3.96,2010,IT,GRE,Low-Income,723,South Africa,PG,Yes
+44,Sean,Mitchell,Male,10/17/1985,smitchell17@sfgate.com,Malta,Malta,German,2011,MISM,UG,part_time,internal,3.66,2008,Computer Science,GRE,Remote Region,706,Malta,UG,Yes
+45,Henry,Jordan,Male,11/21/1986,hjordan18@goo.ne.jp,China,China,French,2013,Financial Engineering,UG,part_time,multi-modal,3.33,2009,IT,SAT,Low-Income,651,China,UG,Yes
+46,Katherine,Black,Female,12/21/1993,kblack19@google.pl,Portugal,Portugal,German,2012,Global MISM,PG,part_time,multi-modal,3.21,2013,Finance,GRE,Disability,653,Portugal,UG,Yes
+47,Cheryl,Gray,Female,5/11/1990,cgray1a@oaic.gov.au,Nicaragua,Nicaragua,Mandarin,2013,MSIT,UG,part_time,multi-modal,3.59,2014,IT,GMAT,Remote Region,722,Nicaragua,UG,Yes
+48,Maria,Reid,Female,3/15/1984,mreid1b@fotki.com,Russia,Russia,French,2007,MBA,PG,part_time,external,3.63,2012,Finance,SAT,Low-Income,646,Russia,PG,Yes
+49,Roger,Simpson,Male,11/11/1987,rsimpson1c@photobucket.com,Indonesia,Indonesia,English,2012,MBA,UG,full-time,multi-modal,3.56,2010,Computer Science,GMAT,Low-Income,654,Indonesia,UG,Yes
+50,Jesse,Mendoza,Male,12/7/1991,jmendoza1d@parallels.com,Peru,Peru,French,2011,MSIT,UG,full-time,external,3.43,2015,Business,GRE,Disability,653,Peru,UG,Yes
+51,Jack,Alvarez,Male,10/22/1985,jalvarez1e@europa.eu,Mauritania,Mauritania,French,2014,MS in CS,UG,part_time,external,3.14,2010,IT,GRE,Disability,680,Mauritania,UG,Yes
+52,Nicole,Murphy,Female,7/31/1988,nmurphy1f@yelp.com,Indonesia,Indonesia,French,2009,MISM,UG,part_time,internal,3.88,2015,IT,GMAT,Remote Region,614,Indonesia,PG,Yes
+53,Clarence,Nguyen,Male,8/28/1994,cnguyen1g@canalblog.com,Indonesia,Indonesia,Mandarin,2008,MISM,PG,full-time,external,3.4,2013,Business,GMAT,Low-Income,726,Indonesia,PG,Yes
+54,Raymond,Bowman,Male,6/26/1986,rbowman1h@spiegel.de,Indonesia,Indonesia,French,2012,MISM,UG,full-time,external,3.77,2013,Marketing,GMAT,Disability,782,Indonesia,UG,Yes
+55,Scott,Sullivan,Male,4/6/1981,ssullivan1i@hexun.com,Portugal,Portugal,English,2014,MBA,PG,part_time,external,3.91,2015,Marketing,SAT,Low-Income,620,Portugal,UG,Yes
+56,Kathy,Cox,Female,10/13/1982,kcox1j@mapquest.com,China,China,French,2015,MISM,PG,full-time,external,3.08,2014,Business,GMAT,Disability,754,China,PG,Yes
+57,Barbara,Carpenter,Female,8/25/1987,bcarpenter1k@skyrock.com,Iran,Iran,Mandarin,2015,MISM,UG,part_time,multi-modal,3.84,2014,Public Policy,GMAT,Low-Income,680,Iran,UG,Yes
+58,Eric,Gray,Male,12/31/1982,egray1l@biblegateway.com,Sri Lanka,Sri Lanka,German,2009,Financial Engineering,UG,part_time,external,3.2,2015,IT,GMAT,Disability,775,Sri Lanka,PG,Yes
+59,Harry,Ward,Male,11/2/1988,hward1m@sphinn.com,Russia,Russia,Mandarin,2009,MSIT,UG,part_time,multi-modal,3.17,2009,Marketing,SAT,Low-Income,727,Russia,UG,Yes
+60,Julie,Castillo,Female,10/29/1989,jcastillo1n@soundcloud.com,Philippines,Philippines,French,2009,MSIPPM,PG,part_time,multi-modal,3.35,2009,IT,GMAT,Low-Income,632,Philippines,UG,Yes
+61,Janice,Pierce,Female,11/19/1993,jpierce1o@redcross.org,China,China,German,2009,MSIPPM,UG,full-time,multi-modal,3.27,2007,Marketing,GMAT,Low-Income,699,China,UG,Yes
+62,Irene,Jackson,Female,8/17/1990,ijackson1p@macromedia.com,Russia,Russia,German,2015,MSIT,UG,full-time,multi-modal,3.28,2010,Marketing,SAT,Disability,745,Russia,PG,Yes
+63,Albert,Reynolds,Male,4/19/1981,areynolds1q@forbes.com,Japan,Japan,German,2007,MSIT,UG,part_time,external,3.95,2015,Business,GMAT,Remote Region,671,Japan,UG,Yes
+64,Catherine,Wood,Female,3/17/1994,cwood1r@yellowpages.com,Croatia,Croatia,German,2007,Financial Engineering,UG,full-time,external,3.85,2014,IT,GMAT,Low-Income,743,Croatia,UG,Yes
+65,Louis,Fields,Male,7/11/1993,lfields1s@1und1.de,Philippines,Philippines,German,2014,MSIT,PG,part_time,multi-modal,3.55,2012,Public Policy,SAT,Disability,690,Philippines,UG,Yes
+66,Debra,Howard,Female,5/29/1981,dhoward1t@theglobeandmail.com,China,China,English,2009,Global MISM,UG,part_time,external,3.7,2011,Public Policy,GRE,Disability,703,China,PG,Yes
+67,Joyce,Stanley,Female,2/4/1991,jstanley1u@uiuc.edu,Philippines,Philippines,German,2010,MSIT,UG,full-time,internal,3.82,2012,Public Policy,SAT,Remote Region,791,Philippines,PG,Yes
+68,Joseph,Evans,Male,8/1/1990,jevans1v@springer.com,Portugal,Portugal,German,2011,MSIPPM,PG,part_time,internal,3.76,2014,Finance,GRE,Low-Income,771,Portugal,PG,Yes
+69,Paula,Garrett,Female,11/1/1987,pgarrett1w@tinyurl.com,Indonesia,Indonesia,French,2015,MBA,UG,full-time,external,3.89,2007,Computer Science,SAT,Low-Income,717,Indonesia,PG,Yes
+70,Alan,Gomez,Male,3/24/1991,agomez1x@dedecms.com,China,China,Mandarin,2009,Global MISM,UG,part_time,external,3.54,2009,IT,SAT,Low-Income,784,China,PG,Yes
+71,Carol,Hart,Female,11/29/1986,chart1y@blogtalkradio.com,Hungary,Hungary,German,2013,MBA,PG,part_time,internal,3.87,2014,Finance,SAT,Remote Region,797,Hungary,UG,Yes
+72,Raymond,Ellis,Male,2/20/1989,rellis1z@hostgator.com,Russia,Russia,Mandarin,2014,MS in CS,UG,full-time,external,3.89,2007,Finance,SAT,Disability,677,Russia,PG,Yes
+73,Harry,Jenkins,Male,3/4/1994,hjenkins20@google.de,China,China,English,2011,Financial Engineering,PG,part_time,external,3.44,2011,Business,GRE,Disability,652,China,PG,Yes
+74,Lawrence,Nelson,Male,11/16/1985,lnelson21@gmpg.org,Guatemala,Guatemala,English,2013,MBA,PG,full-time,multi-modal,3.04,2007,IT,GRE,Low-Income,623,Guatemala,PG,Yes
+75,Angela,Morrison,Female,3/15/1981,amorrison22@yandex.ru,South Africa,South Africa,English,2007,MBA,PG,full-time,internal,3.39,2008,Business,GRE,Remote Region,727,South Africa,UG,Yes
+76,Helen,Lawson,Female,7/6/1983,hlawson23@chronoengine.com,China,China,Mandarin,2014,Global MISM,PG,full-time,external,3.7,2013,Finance,GMAT,Disability,795,China,UG,Yes
+77,Gerald,Coleman,Male,2/17/1991,gcoleman24@wikipedia.org,Bangladesh,Bangladesh,Mandarin,2013,MSIPPM,UG,full-time,multi-modal,3.54,2007,Business,GRE,Low-Income,753,Bangladesh,PG,Yes
+78,Eugene,Tucker,Male,8/10/1988,etucker25@w3.org,Bosnia and Herzegovina,Bosnia and Herzegovina,English,2014,Financial Engineering,PG,part_time,internal,3.78,2011,Marketing,GMAT,Remote Region,712,Bosnia and Herzegovina,PG,Yes
+79,Laura,Lawson,Female,10/24/1985,llawson26@biblegateway.com,Ukraine,Ukraine,German,2008,MSIT,UG,full-time,multi-modal,3.08,2014,Marketing,GMAT,Low-Income,755,Ukraine,PG,Yes
+80,Julie,Wagner,Female,11/29/1989,jwagner27@house.gov,Sweden,Sweden,German,2009,MISM,PG,part_time,multi-modal,3.74,2010,Public Policy,SAT,Low-Income,662,Sweden,PG,Yes
+81,Nicole,Rice,Female,4/29/1988,nrice28@usa.gov,Russia,Russia,French,2008,MISM,PG,full-time,internal,3.96,2012,IT,SAT,Remote Region,729,Russia,PG,Yes
+82,Bruce,Smith,Male,5/17/1986,bsmith29@smh.com.au,Turkmenistan,Turkmenistan,French,2012,MSIPPM,UG,full-time,external,3.06,2011,Marketing,GMAT,Low-Income,657,Turkmenistan,UG,Yes
+83,William,Knight,Male,5/20/1986,wknight2a@indiegogo.com,France,France,Mandarin,2007,MS in CS,PG,part_time,multi-modal,3.5,2013,Marketing,SAT,Disability,774,France,PG,Yes
+84,Catherine,Castillo,Female,9/29/1991,ccastillo2b@shinystat.com,Argentina,Argentina,German,2015,MBA,PG,full-time,multi-modal,3.17,2007,IT,SAT,Remote Region,729,Argentina,UG,Yes
+85,Harry,Owens,Male,1/31/1981,howens2c@mozilla.com,United States,United States,Mandarin,2012,MISM,UG,part_time,external,3.02,2012,Marketing,GMAT,Low-Income,692,United States,PG,Yes
+86,Robin,Ruiz,Female,12/3/1993,rruiz2d@admin.ch,Indonesia,Indonesia,French,2012,MBA,UG,full-time,multi-modal,3.69,2007,Computer Science,SAT,Low-Income,749,Indonesia,UG,Yes
+87,Joyce,Berry,Female,2/19/1982,jberry2e@free.fr,Philippines,Philippines,Mandarin,2015,Global MISM,UG,full-time,multi-modal,3.25,2011,Finance,SAT,Low-Income,627,Philippines,PG,Yes
+88,Joe,Matthews,Male,9/30/1993,jmatthews2f@google.it,United States,United States,English,2010,MISM,PG,part_time,internal,3.99,2010,Business,GRE,Disability,792,United States,UG,Yes
+89,Julia,Nelson,Female,5/29/1983,jnelson2g@google.com.br,Poland,Poland,French,2014,MSIT,PG,part_time,internal,3.36,2011,IT,GMAT,Remote Region,677,Poland,PG,Yes
+90,Mark,Mccoy,Male,12/25/1986,mmccoy2h@bluehost.com,China,China,German,2012,Global MISM,PG,part_time,multi-modal,3.63,2007,Computer Science,GMAT,Low-Income,671,China,PG,Yes
+91,Susan,Phillips,Female,9/26/1988,sphillips2i@google.fr,Sweden,Sweden,French,2012,MSIT,UG,part_time,internal,3.38,2011,Business,GRE,Low-Income,748,Sweden,PG,Yes
+92,Jennifer,Stanley,Female,12/23/1984,jstanley2j@livejournal.com,Russia,Russia,French,2008,MS in CS,UG,full-time,external,3.84,2015,Computer Science,GMAT,Low-Income,694,Russia,UG,Yes
+93,Carl,Morgan,Male,6/4/1988,cmorgan2k@ning.com,Greece,Greece,French,2013,Global MISM,UG,part_time,internal,3.53,2008,Public Policy,GMAT,Low-Income,686,Greece,UG,Yes
+94,Benjamin,Wilson,Male,10/11/1989,bwilson2l@icio.us,Greece,Greece,English,2011,MSIT,UG,part_time,internal,3.05,2011,IT,GRE,Low-Income,683,Greece,UG,Yes
+95,Janet,Woods,Female,2/2/1986,jwoods2m@dedecms.com,Malaysia,Malaysia,German,2011,MS in CS,UG,full-time,multi-modal,3.95,2009,Public Policy,SAT,Remote Region,605,Malaysia,PG,Yes
+96,Alice,Cole,Female,1/5/1982,acole2n@joomla.org,Burkina Faso,Burkina Faso,French,2010,MISM,PG,full-time,external,3.71,2011,Business,SAT,Low-Income,660,Burkina Faso,UG,Yes
+97,Jason,Banks,Male,4/22/1990,jbanks2o@delicious.com,Brazil,Brazil,English,2014,MISM,UG,part_time,external,3.01,2010,Computer Science,GMAT,Low-Income,747,Brazil,UG,Yes
+98,Larry,Dean,Male,7/17/1987,ldean2p@ucoz.ru,Indonesia,Indonesia,Mandarin,2009,MSIPPM,PG,full-time,internal,3.65,2014,IT,GRE,Remote Region,685,Indonesia,PG,Yes
+99,Craig,Carr,Male,2/17/1983,ccarr2q@nature.com,Portugal,Portugal,German,2012,MSIT,PG,full-time,multi-modal,3.97,2007,Computer Science,SAT,Remote Region,734,Portugal,PG,Yes
+100,Laura,Berry,Female,2/17/1989,lberry2r@weibo.com,Indonesia,Indonesia,German,2014,Financial Engineering,PG,full-time,multi-modal,3.93,2011,IT,GMAT,Remote Region,676,Indonesia,UG,Yes
+101,Kathleen,Ryan,Female,1/23/1981,kryan2s@skype.com,United States,United States,Mandarin,2012,MSIT,UG,part_time,multi-modal,3.01,2007,Marketing,GMAT,Disability,683,United States,PG,Yes
+102,Bruce,Simpson,Male,10/22/1983,bsimpson2t@sogou.com,Colombia,Colombia,German,2009,MS in CS,UG,part_time,multi-modal,3.64,2014,Finance,GMAT,Disability,685,Colombia,PG,Yes
+103,Chris,Russell,Male,12/26/1990,crussell2u@addthis.com,Portugal,Portugal,Mandarin,2008,Global MISM,UG,part_time,external,3.85,2014,Finance,SAT,Disability,625,Portugal,UG,Yes
+104,Adam,Andrews,Male,3/31/1991,aandrews2v@tamu.edu,Kosovo,Kosovo,Mandarin,2012,MISM,UG,full-time,multi-modal,3.32,2014,Finance,SAT,Disability,798,Kosovo,UG,Yes
+105,Benjamin,Gardner,Male,3/18/1993,bgardner2w@cnn.com,Indonesia,Indonesia,German,2013,MSIT,PG,part_time,external,3.94,2014,IT,GRE,Disability,623,Indonesia,PG,Yes
+106,Stephanie,Medina,Female,4/6/1986,smedina2x@samsung.com,Indonesia,Indonesia,French,2015,Financial Engineering,PG,part_time,internal,3.88,2014,Finance,SAT,Low-Income,638,Indonesia,PG,Yes
+107,Justin,Greene,Male,8/30/1984,jgreene2y@house.gov,Ukraine,Ukraine,Mandarin,2014,MSIPPM,PG,full-time,multi-modal,3.43,2012,Finance,GRE,Low-Income,796,Ukraine,UG,Yes
+108,Debra,Russell,Female,3/15/1981,drussell2z@goodreads.com,Croatia,Croatia,Mandarin,2012,MS in CS,PG,full-time,internal,3.2,2015,Marketing,GRE,Remote Region,622,Croatia,UG,Yes
+109,Joe,Young,Male,4/15/1984,jyoung30@google.de,Slovakia,Slovakia,German,2013,Financial Engineering,UG,part_time,multi-modal,3.02,2011,Business,GMAT,Low-Income,618,Slovakia,PG,Yes
+110,Gregory,Cox,Male,12/31/1982,gcox31@usgs.gov,Mexico,Mexico,French,2015,MBA,UG,part_time,external,3.57,2009,Public Policy,SAT,Remote Region,645,Mexico,PG,Yes
+111,Diane,Mills,Female,6/7/1982,dmills32@dedecms.com,China,China,German,2007,Financial Engineering,PG,full-time,internal,3.7,2009,Computer Science,SAT,Remote Region,609,China,PG,Yes
+112,Aaron,Dunn,Male,6/16/1981,adunn33@netlog.com,Mexico,Mexico,German,2014,MBA,PG,full-time,internal,3.73,2012,Computer Science,SAT,Low-Income,751,Mexico,PG,Yes
+113,Marie,Simpson,Female,4/24/1982,msimpson34@amazon.co.uk,Russia,Russia,French,2011,Financial Engineering,PG,part_time,internal,3.19,2012,Computer Science,GRE,Low-Income,632,Russia,UG,Yes
+114,Christine,Dean,Female,12/13/1987,cdean35@weibo.com,Azerbaijan,Azerbaijan,French,2009,MISM,UG,part_time,multi-modal,3.92,2008,Public Policy,SAT,Low-Income,692,Azerbaijan,UG,Yes
+115,Daniel,Palmer,Male,8/18/1991,dpalmer36@pen.io,China,China,French,2013,Global MISM,PG,part_time,multi-modal,3.25,2013,Business,GRE,Disability,783,China,PG,Yes
+116,George,Moreno,Male,4/18/1981,gmoreno37@geocities.com,Philippines,Philippines,German,2013,MSIPPM,UG,full-time,internal,3.16,2008,Computer Science,GRE,Disability,641,Philippines,PG,Yes
+117,Scott,Cunningham,Male,4/27/1981,scunningham38@jiathis.com,Czech Republic,Czech Republic,Mandarin,2011,Global MISM,PG,part_time,multi-modal,3.3,2011,Public Policy,GMAT,Low-Income,687,Czech Republic,UG,Yes
+118,Karen,Freeman,Female,2/11/1982,kfreeman39@smugmug.com,China,China,Mandarin,2009,MSIT,PG,full-time,external,3.18,2014,Business,SAT,Disability,628,China,UG,Yes
+119,Jesse,Mason,Male,5/3/1984,jmason3a@github.com,Serbia,Serbia,English,2009,MISM,PG,part_time,internal,3.66,2007,IT,GRE,Low-Income,738,Serbia,UG,Yes
+120,Paul,Fox,Male,6/21/1992,pfox3b@joomla.org,Indonesia,Indonesia,French,2009,MSIPPM,UG,full-time,internal,3.58,2013,Public Policy,SAT,Low-Income,771,Indonesia,UG,Yes
+121,Joyce,Lawson,Female,3/15/1992,jlawson3c@discuz.net,Tunisia,Tunisia,German,2007,MSIT,UG,full-time,internal,3.97,2007,Business,SAT,Remote Region,716,Tunisia,PG,Yes
+122,Betty,White,Female,1/12/1987,bwhite3d@posterous.com,China,China,English,2009,MBA,UG,part_time,multi-modal,3.36,2010,Finance,GMAT,Disability,718,China,PG,Yes
+123,Jennifer,Hawkins,Female,12/12/1983,jhawkins3e@elegantthemes.com,Nigeria,Nigeria,Mandarin,2012,MSIT,PG,full-time,internal,3.27,2007,IT,GRE,Disability,618,Nigeria,PG,Yes
+124,Julie,Hanson,Female,4/26/1990,jhanson3f@si.edu,Russia,Russia,German,2013,MSIPPM,PG,part_time,multi-modal,3.35,2014,IT,SAT,Low-Income,779,Russia,UG,Yes
+125,Sandra,Harvey,Female,5/13/1987,sharvey3g@ca.gov,United Kingdom,United Kingdom,French,2009,MSIPPM,PG,full-time,multi-modal,3.87,2012,Public Policy,GRE,Disability,675,United Kingdom,UG,Yes
+126,Jack,Moreno,Male,10/20/1986,jmoreno3h@webeden.co.uk,Philippines,Philippines,Mandarin,2014,MSIPPM,PG,part_time,internal,3.7,2013,Public Policy,GRE,Low-Income,745,Philippines,UG,No
+127,Phyllis,Welch,Female,8/29/1983,pwelch3i@google.de,Mexico,Mexico,English,2012,MISM,UG,part_time,external,3,2010,Finance,GRE,Disability,682,Mexico,PG,No
+128,Brian,Garrett,Male,7/12/1987,bgarrett3j@discovery.com,Croatia,Croatia,English,2012,MSIT,UG,part_time,internal,3.66,2009,Finance,GMAT,Remote Region,780,Croatia,UG,No
+129,Donna,Perez,Female,7/14/1988,dperez3k@opera.com,China,China,Mandarin,2009,Financial Engineering,PG,part_time,internal,3.72,2012,Marketing,SAT,Remote Region,638,China,PG,No
+130,Catherine,Garrett,Female,3/2/1982,cgarrett3l@smh.com.au,Costa Rica,Costa Rica,English,2007,MISM,PG,part_time,internal,3.36,2013,IT,GRE,Low-Income,624,Costa Rica,PG,No
+131,Jeffrey,Fox,Male,6/1/1982,jfox3m@purevolume.com,Peru,Peru,English,2009,Financial Engineering,UG,full-time,external,3.24,2009,Marketing,GMAT,Disability,637,Peru,UG,No
+132,Mark,Foster,Male,11/13/1987,mfoster3n@eventbrite.com,Cambodia,Cambodia,Mandarin,2014,Financial Engineering,UG,part_time,multi-modal,3.35,2013,Finance,SAT,Remote Region,744,Cambodia,UG,No
+133,Tina,Schmidt,Female,8/23/1993,tschmidt3o@arizona.edu,China,China,French,2007,MBA,PG,part_time,external,3.43,2014,Computer Science,GMAT,Remote Region,796,China,UG,No
+134,Patrick,Welch,Male,6/29/1993,pwelch3p@privacy.gov.au,Slovenia,Slovenia,English,2007,Financial Engineering,UG,full-time,multi-modal,3.11,2012,Public Policy,GMAT,Disability,629,Slovenia,UG,No
+135,Cynthia,Gonzales,Female,5/31/1991,cgonzales3q@mayoclinic.com,Russia,Russia,German,2014,MSIT,PG,part_time,external,3.34,2010,Public Policy,GRE,Remote Region,614,Russia,PG,No
+136,Albert,Harper,Male,9/20/1992,aharper3r@google.cn,Indonesia,Indonesia,English,2009,Global MISM,PG,full-time,multi-modal,3.72,2008,Business,GRE,Disability,686,Indonesia,PG,No
+137,Brenda,Parker,Female,4/21/1986,bparker3s@aol.com,Colombia,Colombia,German,2015,MSIT,UG,full-time,internal,3.99,2009,Computer Science,GRE,Low-Income,606,Colombia,PG,No
+138,Paula,Gibson,Female,2/4/1988,pgibson3t@eventbrite.com,China,China,Mandarin,2013,MSIT,PG,part_time,multi-modal,3.69,2010,Public Policy,GMAT,Remote Region,620,China,PG,No
+139,Ann,Freeman,Female,1/1/1987,afreeman3u@wunderground.com,Poland,Poland,Mandarin,2012,MISM,PG,part_time,external,3.4,2015,Marketing,GMAT,Low-Income,792,Poland,PG,No
+140,Maria,Lynch,Female,4/1/1984,mlynch3v@dedecms.com,Vietnam,Vietnam,Mandarin,2015,MS in CS,PG,full-time,external,3.18,2010,IT,GMAT,Remote Region,688,Vietnam,UG,No
+141,Sara,Kennedy,Female,10/28/1992,skennedy3w@storify.com,Indonesia,Indonesia,English,2012,Global MISM,PG,full-time,internal,3.27,2010,Finance,GRE,Remote Region,628,Indonesia,PG,No
+142,Cheryl,Ramos,Female,6/19/1984,cramos3x@furl.net,Greece,Greece,Mandarin,2014,MS in CS,PG,part_time,multi-modal,3.08,2009,IT,SAT,Disability,788,Greece,PG,No
+143,David,Taylor,Male,4/3/1989,dtaylor3y@forbes.com,China,China,German,2007,MISM,PG,part_time,internal,3.41,2012,Business,GRE,Disability,766,China,UG,No
+144,Donna,Reynolds,Female,10/17/1988,dreynolds3z@hp.com,Macedonia,Macedonia,English,2015,MSIPPM,UG,full-time,internal,3.93,2014,IT,GMAT,Remote Region,751,Macedonia,UG,No
+145,Adam,George,Male,8/2/1987,ageorge40@gnu.org,France,France,English,2012,Financial Engineering,UG,part_time,multi-modal,3.2,2015,Computer Science,GMAT,Disability,800,France,UG,No
+146,Sharon,Simpson,Female,1/11/1994,ssimpson41@theguardian.com,Russia,Russia,German,2012,Global MISM,UG,full-time,multi-modal,3.77,2009,Finance,GRE,Disability,722,Russia,PG,No
+147,Scott,Chapman,Male,9/28/1989,schapman42@hhs.gov,Indonesia,Indonesia,German,2008,MSIT,PG,full-time,external,3.44,2009,Marketing,GMAT,Remote Region,634,Indonesia,UG,No
+148,Fred,Ramos,Male,10/26/1984,framos43@tinypic.com,Philippines,Philippines,French,2009,MBA,UG,full-time,external,3.2,2009,IT,GRE,Remote Region,703,Philippines,UG,No
+149,Harry,Hunter,Male,8/19/1986,hhunter44@biglobe.ne.jp,China,China,English,2015,Global MISM,UG,part_time,multi-modal,3.58,2010,Computer Science,SAT,Remote Region,800,China,PG,No
+150,Clarence,Cunningham,Male,5/13/1986,ccunningham45@php.net,China,China,English,2014,Global MISM,UG,part_time,multi-modal,3.37,2007,Public Policy,SAT,Remote Region,682,China,PG,No
+151,Kimberly,Morales,Female,6/2/1985,kmorales46@mapy.cz,Philippines,Philippines,English,2011,MS in CS,PG,part_time,external,3.76,2011,Computer Science,SAT,Low-Income,732,Philippines,PG,No
+152,Eric,Gutierrez,Male,12/9/1985,egutierrez47@marriott.com,Iran,Iran,English,2008,Global MISM,PG,full-time,internal,3.24,2011,Computer Science,GRE,Remote Region,705,Iran,UG,No
+153,Phyllis,Knight,Female,12/3/1989,pknight48@discovery.com,Indonesia,Indonesia,German,2013,Financial Engineering,UG,full-time,multi-modal,3.32,2013,IT,GMAT,Low-Income,672,Indonesia,PG,No
+154,Lillian,Berry,Female,3/23/1984,lberry49@adobe.com,Lithuania,Lithuania,English,2010,MS in CS,UG,part_time,multi-modal,3.36,2007,Business,GRE,Remote Region,649,Lithuania,PG,No
+155,Beverly,Daniels,Female,1/10/1988,bdaniels4a@twitter.com,Poland,Poland,English,2007,MISM,UG,full-time,internal,3.38,2012,Business,GMAT,Disability,770,Poland,PG,No
+156,Juan,Henry,Male,7/9/1990,jhenry4b@google.fr,Poland,Poland,German,2008,Financial Engineering,PG,full-time,internal,3.18,2010,Finance,GRE,Disability,713,Poland,UG,No
+157,Benjamin,Day,Male,4/1/1991,bday4c@dmoz.org,China,China,French,2011,Financial Engineering,PG,part_time,multi-modal,3.12,2007,Marketing,SAT,Disability,695,China,UG,No
+158,Roger,Williams,Male,4/14/1981,rwilliams4d@freewebs.com,United States,United States,English,2015,Financial Engineering,UG,part_time,external,3.64,2007,Computer Science,GMAT,Disability,787,United States,UG,No
+159,Sara,Collins,Female,1/31/1991,scollins4e@virginia.edu,Sri Lanka,Sri Lanka,French,2012,MISM,PG,full-time,internal,3.42,2011,Finance,SAT,Low-Income,794,Sri Lanka,UG,No
+160,Scott,Lopez,Male,7/21/1987,slopez4f@google.pl,Sierra Leone,Sierra Leone,French,2008,MSIT,UG,full-time,external,3.85,2007,IT,SAT,Disability,635,Sierra Leone,UG,No
+161,Juan,Williamson,Male,11/3/1983,jwilliamson4g@apple.com,Sweden,Sweden,English,2007,MS in CS,PG,full-time,external,3.53,2014,Computer Science,GMAT,Remote Region,714,Sweden,UG,No
+162,Philip,Foster,Male,4/28/1990,pfoster4h@devhub.com,France,France,German,2015,MBA,PG,full-time,multi-modal,3.93,2009,Public Policy,SAT,Low-Income,781,France,PG,No
+163,Charles,Gibson,Male,5/12/1988,cgibson4i@youtu.be,France,France,English,2008,MS in CS,UG,part_time,multi-modal,3.11,2012,Business,SAT,Low-Income,609,France,UG,No
+164,Robin,Ramirez,Female,12/12/1993,rramirez4j@adobe.com,China,China,Mandarin,2015,Global MISM,PG,full-time,multi-modal,3.14,2010,Business,SAT,Remote Region,720,China,UG,No
+165,Cheryl,Chapman,Female,4/5/1984,cchapman4k@hc360.com,Greece,Greece,German,2013,MSIT,UG,full-time,external,3.99,2013,Marketing,GMAT,Remote Region,799,Greece,UG,No
+166,George,Turner,Male,8/9/1992,gturner4l@cocolog-nifty.com,Russia,Russia,French,2014,MISM,UG,part_time,external,3.98,2010,Business,GMAT,Low-Income,657,Russia,UG,No
+167,Ashley,Gardner,Female,6/12/1984,agardner4m@lycos.com,Brazil,Brazil,English,2015,MS in CS,UG,part_time,external,3.48,2014,Business,GMAT,Low-Income,626,Brazil,PG,No
+168,Raymond,Thompson,Male,6/11/1985,rthompson4n@wordpress.com,Czech Republic,Czech Republic,Mandarin,2011,Global MISM,UG,full-time,multi-modal,3.17,2009,Marketing,GMAT,Disability,729,Czech Republic,PG,No
+169,Edward,Austin,Male,1/22/1990,eaustin4o@rediff.com,Colombia,Colombia,Mandarin,2014,MSIPPM,PG,full-time,internal,3.41,2012,Marketing,SAT,Remote Region,786,Colombia,UG,No
+170,Stephanie,Gutierrez,Female,3/12/1983,sgutierrez4p@multiply.com,Sweden,Sweden,French,2015,MBA,UG,full-time,external,3.61,2009,Computer Science,GMAT,Low-Income,706,Sweden,PG,No
+171,Emily,Dixon,Female,9/9/1983,edixon4q@redcross.org,Czech Republic,Czech Republic,English,2013,MBA,PG,part_time,external,3.99,2015,IT,GRE,Disability,738,Czech Republic,UG,No
+172,Bruce,Scott,Male,3/17/1985,bscott4r@feedburner.com,China,China,English,2008,MISM,UG,full-time,multi-modal,3.32,2008,Computer Science,GRE,Low-Income,664,China,UG,No
+173,Arthur,Murray,Male,7/6/1993,amurray4s@devhub.com,Indonesia,Indonesia,English,2014,Financial Engineering,UG,full-time,internal,3.91,2014,Finance,GMAT,Disability,749,Indonesia,PG,No
+174,Sharon,Gray,Female,3/30/1987,sgray4t@netvibes.com,Barbados,Barbados,French,2009,Financial Engineering,UG,full-time,external,3.9,2010,Marketing,GRE,Disability,676,Barbados,PG,No
+175,Chris,Austin,Male,7/20/1988,caustin4u@independent.co.uk,Indonesia,Indonesia,German,2009,MBA,UG,part_time,external,3.22,2010,Business,GRE,Low-Income,653,Indonesia,PG,No
+176,Amy,Black,Female,3/6/1993,ablack4v@hugedomains.com,Russia,Russia,English,2007,Global MISM,UG,part_time,external,3.85,2012,Finance,GMAT,Disability,603,Russia,PG,No
+177,Jack,Hunt,Male,11/30/1988,jhunt4w@yellowpages.com,China,China,English,2012,MISM,UG,part_time,external,3.57,2008,Finance,GRE,Remote Region,739,China,UG,No
+178,Tammy,Richardson,Female,5/2/1981,trichardson4x@parallels.com,Poland,Poland,German,2010,MS in CS,PG,full-time,multi-modal,3.64,2008,Finance,SAT,Low-Income,768,Poland,PG,No
+179,Lillian,Shaw,Female,12/5/1987,lshaw4y@wikipedia.org,China,China,English,2008,MSIT,UG,full-time,internal,3.37,2015,Finance,GRE,Remote Region,665,China,UG,No
+180,Paula,Lee,Female,4/4/1989,plee4z@jigsy.com,Russia,Russia,French,2013,MS in CS,PG,full-time,external,3.65,2011,Business,SAT,Disability,631,Russia,PG,No
+181,Bonnie,Harper,Female,1/6/1981,bharper50@state.gov,Indonesia,Indonesia,German,2012,Global MISM,PG,part_time,multi-modal,3.63,2007,Business,GMAT,Low-Income,651,Indonesia,UG,No
+182,Stephen,Kelley,Male,10/11/1983,skelley51@creativecommons.org,United States,United States,French,2014,MSIT,PG,full-time,external,3.41,2012,Business,GRE,Disability,661,United States,UG,No
+183,Ralph,Jones,Male,3/22/1987,rjones52@latimes.com,Oman,Oman,German,2008,MBA,PG,part_time,internal,3.25,2009,Finance,GRE,Low-Income,790,Oman,UG,No
+184,Jennifer,Phillips,Female,9/20/1983,jphillips53@discovery.com,Swaziland,Swaziland,English,2013,MSIPPM,UG,full-time,internal,3.42,2015,IT,GMAT,Low-Income,710,Swaziland,PG,No
+185,Lillian,Hanson,Female,5/20/1993,lhanson54@amazon.com,China,China,French,2015,Financial Engineering,UG,full-time,multi-modal,3.46,2013,Finance,SAT,Disability,690,China,PG,No
+186,Rose,Mccoy,Female,5/16/1988,rmccoy55@oracle.com,Poland,Poland,Mandarin,2007,MBA,UG,part_time,multi-modal,3.65,2012,Finance,GRE,Disability,611,Poland,UG,No
+187,Ann,Evans,Female,3/7/1984,aevans56@bloglines.com,Yemen,Yemen,German,2015,Global MISM,UG,full-time,external,3.75,2010,IT,GMAT,Low-Income,699,Yemen,PG,No
+188,Raymond,Lynch,Male,12/4/1984,rlynch57@ebay.co.uk,Macedonia,Macedonia,Mandarin,2010,Global MISM,PG,part_time,internal,3.62,2012,Finance,GRE,Low-Income,644,Macedonia,PG,No
+189,Karen,Martin,Female,9/26/1982,kmartin58@ucoz.ru,China,China,Mandarin,2014,Financial Engineering,PG,full-time,external,3.46,2008,Computer Science,GMAT,Low-Income,722,China,UG,No
+190,Victor,Willis,Male,9/27/1992,vwillis59@zdnet.com,China,China,German,2008,Financial Engineering,UG,part_time,external,3.94,2008,Business,GRE,Remote Region,698,China,UG,No
+191,Jessica,Reynolds,Female,3/22/1982,jreynolds5a@comsenz.com,Ukraine,Ukraine,French,2007,Global MISM,UG,part_time,external,3.5,2007,Public Policy,SAT,Low-Income,640,Ukraine,UG,No
+192,Ann,Freeman,Female,12/23/1983,afreeman5b@mac.com,China,China,Mandarin,2008,MSIPPM,PG,full-time,external,3.33,2009,Computer Science,SAT,Disability,628,China,UG,No
+193,Kenneth,White,Male,6/21/1992,kwhite5c@pagesperso-orange.fr,Japan,Japan,English,2007,MISM,PG,part_time,external,3.29,2012,IT,GRE,Low-Income,751,Japan,PG,No
+194,Antonio,Gardner,Male,11/8/1988,agardner5d@pagesperso-orange.fr,Philippines,Philippines,Mandarin,2010,Global MISM,PG,full-time,multi-modal,3.59,2008,Business,GMAT,Low-Income,727,Philippines,UG,No
+195,Laura,Williamson,Female,3/7/1987,lwilliamson5e@blogtalkradio.com,China,China,French,2014,MBA,PG,part_time,multi-modal,3.71,2007,Marketing,GRE,Disability,645,China,UG,No
+196,Louis,Lee,Male,3/2/1993,llee5f@dailymotion.com,New Zealand,New Zealand,English,2008,MBA,UG,part_time,multi-modal,3.9,2011,Public Policy,GMAT,Low-Income,610,New Zealand,UG,No
+197,Jeremy,Jacobs,Male,11/27/1984,jjacobs5g@flavors.me,Russia,Russia,English,2011,MISM,PG,full-time,multi-modal,3.59,2007,Business,GMAT,Remote Region,653,Russia,UG,No
+198,Julia,Schmidt,Female,2/24/1989,jschmidt5h@msn.com,Poland,Poland,Mandarin,2007,Global MISM,PG,part_time,internal,3.13,2009,IT,GMAT,Remote Region,690,Poland,PG,No
+199,Willie,Fox,Male,12/9/1984,wfox5i@thetimes.co.uk,Honduras,Honduras,German,2008,MSIT,PG,part_time,external,3.9,2012,IT,GMAT,Disability,613,Honduras,UG,No
+200,Kevin,Ortiz,Male,7/7/1989,kortiz5j@imdb.com,China,China,English,2010,MBA,PG,part_time,multi-modal,3.42,2014,Finance,SAT,Remote Region,738,China,UG,No
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,

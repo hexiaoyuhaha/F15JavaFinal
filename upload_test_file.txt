@@ -1,0 +1,13 @@
+# F15JavaTeamProject
+Happy F15 Java Team Project!
+
+JFreeChart: Maintained by Qiaochu, Jinyu, Xiaoyu
+
+HaoKangAn: Maintained by HaokangAn
+
+GroupTest: Maintained by jiong
+
+
+Hope every body can put all your files into corresponding folder, do not use this repo as the root folder for your eclipse or netbeans project~
+Be careful when pushing your code from local to master! 
+Don't delete or override the code of others.
