@@ -5,6 +5,14 @@
  */
 package studentanalytics;
 
+import chart.AttendanceRingChart;
+import chart.BarLineChart;
+import chart.MaleFemaleRingChart;
+import chart.ProportionPieChart;
+import chart.SexRatioByMajorBarChart;
+import java.awt.BorderLayout;
+import org.jfree.chart.ChartPanel;
+
 /**
  *
  * @author paraschhabra
@@ -16,7 +24,33 @@ public class Dashboard extends javax.swing.JFrame {
      */
     public Dashboard() {
         initComponents();
-        list1.addItem("bjbjj");
+        
+        PieChartMF.setLayout(new java.awt.BorderLayout());
+		        ChartPanel chartPanel = new MaleFemaleRingChart("data/" + FileSelect.selectedFileName).createChart();
+
+//        ChartPanel chartPanel = new MaleFemaleRingChart("data/MOCK_DATA-1.csv").createChart();
+        PieChartMF.add(chartPanel,BorderLayout.CENTER);
+        PieChartMF.validate();
+
+        pieChart_Country.setLayout(new java.awt.BorderLayout());
+        ChartPanel chartPanel1 = new ProportionPieChart("data/" + FileSelect.selectedFileName).createChart();
+        pieChart_Country.add(chartPanel1,BorderLayout.CENTER);
+        pieChart_Country.validate();
+        
+        Att_Panel.setLayout(new java.awt.BorderLayout());
+        ChartPanel chartPanel2 = new AttendanceRingChart("data/" + FileSelect.selectedFileName).createChart();
+        Att_Panel.add(chartPanel2,BorderLayout.CENTER);
+        Att_Panel.validate();
+        
+        Great_Panel.setLayout(new java.awt.BorderLayout());
+        ChartPanel chartPanel3 = new BarLineChart("data/" + FileSelect.selectedFileName).createChart();
+        Great_Panel.add(chartPanel3,BorderLayout.CENTER);
+        Great_Panel.validate();
+        
+        SexRatio_Panel.setLayout(new java.awt.BorderLayout());
+        ChartPanel chartPanel4 = new SexRatioByMajorBarChart("data/" + FileSelect.selectedFileName).createChart();
+        SexRatio_Panel.add(chartPanel4,BorderLayout.CENTER);
+        SexRatio_Panel.validate();
     }
 
     /**
@@ -32,115 +66,51 @@ public class Dashboard extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel3 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        parentPanel1 = new javax.swing.JPanel();
-        chart3_List1 = new javax.swing.JPanel();
-        chart1_List1 = new javax.swing.JPanel();
-        chart2_List1 = new javax.swing.JPanel();
+        Great_Panel = new javax.swing.JPanel();
         PieChartMF = new javax.swing.JPanel();
-        list1 = new javax.swing.JComboBox();
-        buttonTR = new javax.swing.JButton();
         pieChart_Country = new javax.swing.JPanel();
-        parentPanel2 = new javax.swing.JPanel();
-        chart1_List2 = new javax.swing.JPanel();
-        chart2_List2 = new javax.swing.JPanel();
-        chart3_List2 = new javax.swing.JPanel();
-        buttonLR = new javax.swing.JButton();
-        list2 = new javax.swing.JComboBox();
+        Att_Panel = new javax.swing.JPanel();
+        SexRatio_Panel = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 102, 102), 4, true));
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        Great_Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED, new java.awt.Color(0, 102, 102), new java.awt.Color(0, 204, 204)));
+        Great_Panel.setMaximumSize(new java.awt.Dimension(525, 278));
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Al Bayan", 1, 55)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel2.setText("DASHBOARD");
-
-        parentPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        parentPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 102, 102), new java.awt.Color(0, 204, 204)));
-        parentPanel1.setLayout(new java.awt.CardLayout());
-
-        chart3_List1.setBackground(new java.awt.Color(255, 255, 255));
-
-        javax.swing.GroupLayout chart3_List1Layout = new javax.swing.GroupLayout(chart3_List1);
-        chart3_List1.setLayout(chart3_List1Layout);
-        chart3_List1Layout.setHorizontalGroup(
-            chart3_List1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 609, Short.MAX_VALUE)
+        javax.swing.GroupLayout Great_PanelLayout = new javax.swing.GroupLayout(Great_Panel);
+        Great_Panel.setLayout(Great_PanelLayout);
+        Great_PanelLayout.setHorizontalGroup(
+            Great_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
-        chart3_List1Layout.setVerticalGroup(
-            chart3_List1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
+        Great_PanelLayout.setVerticalGroup(
+            Great_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 337, Short.MAX_VALUE)
         );
-
-        parentPanel1.add(chart3_List1, "card4");
-
-        chart1_List1.setBackground(new java.awt.Color(51, 51, 255));
-
-        javax.swing.GroupLayout chart1_List1Layout = new javax.swing.GroupLayout(chart1_List1);
-        chart1_List1.setLayout(chart1_List1Layout);
-        chart1_List1Layout.setHorizontalGroup(
-            chart1_List1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 609, Short.MAX_VALUE)
-        );
-        chart1_List1Layout.setVerticalGroup(
-            chart1_List1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-
-        parentPanel1.add(chart1_List1, "card3");
-
-        chart2_List1.setBackground(new java.awt.Color(204, 51, 255));
-
-        javax.swing.GroupLayout chart2_List1Layout = new javax.swing.GroupLayout(chart2_List1);
-        chart2_List1.setLayout(chart2_List1Layout);
-        chart2_List1Layout.setHorizontalGroup(
-            chart2_List1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 609, Short.MAX_VALUE)
-        );
-        chart2_List1Layout.setVerticalGroup(
-            chart2_List1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
-        );
-
-        parentPanel1.add(chart2_List1, "card2");
 
         PieChartMF.setBackground(new java.awt.Color(255, 255, 255));
         PieChartMF.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED, new java.awt.Color(0, 102, 102), new java.awt.Color(0, 204, 204)));
+        PieChartMF.setMaximumSize(new java.awt.Dimension(274, 274));
+        PieChartMF.setPreferredSize(new java.awt.Dimension(274, 274));
 
         javax.swing.GroupLayout PieChartMFLayout = new javax.swing.GroupLayout(PieChartMF);
         PieChartMF.setLayout(PieChartMFLayout);
         PieChartMFLayout.setHorizontalGroup(
             PieChartMFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 272, Short.MAX_VALUE)
+            .addGap(0, 270, Short.MAX_VALUE)
         );
         PieChartMFLayout.setVerticalGroup(
             PieChartMFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 251, Short.MAX_VALUE)
+            .addGap(0, 278, Short.MAX_VALUE)
         );
-
-        list1.setBackground(new java.awt.Color(255, 255, 255));
-        list1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Proportion by Country Bar Chart", "Enrolled Number by Year ", "Item", "Item 4" }));
-        list1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                list1ActionPerformed(evt);
-            }
-        });
-
-        buttonTR.setText("Select");
-        buttonTR.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttonTRActionPerformed(evt);
-            }
-        });
 
         pieChart_Country.setBackground(new java.awt.Color(255, 255, 255));
         pieChart_Country.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 102, 102), new java.awt.Color(0, 204, 204)));
+        pieChart_Country.setMaximumSize(new java.awt.Dimension(274, 274));
+        pieChart_Country.setPreferredSize(new java.awt.Dimension(274, 274));
 
         javax.swing.GroupLayout pieChart_CountryLayout = new javax.swing.GroupLayout(pieChart_Country);
         pieChart_Country.setLayout(pieChart_CountryLayout);
@@ -153,139 +123,73 @@ public class Dashboard extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        parentPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        parentPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 153, 153), new java.awt.Color(0, 204, 204)));
-        parentPanel2.setLayout(new java.awt.CardLayout());
+        Att_Panel.setBackground(new java.awt.Color(255, 255, 255));
+        Att_Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 102, 102), new java.awt.Color(0, 204, 204)));
+        Att_Panel.setMaximumSize(new java.awt.Dimension(274, 274));
+        Att_Panel.setPreferredSize(new java.awt.Dimension(274, 274));
 
-        chart1_List2.setBackground(new java.awt.Color(255, 255, 255));
-
-        javax.swing.GroupLayout chart1_List2Layout = new javax.swing.GroupLayout(chart1_List2);
-        chart1_List2.setLayout(chart1_List2Layout);
-        chart1_List2Layout.setHorizontalGroup(
-            chart1_List2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 611, Short.MAX_VALUE)
-        );
-        chart1_List2Layout.setVerticalGroup(
-            chart1_List2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout Att_PanelLayout = new javax.swing.GroupLayout(Att_Panel);
+        Att_Panel.setLayout(Att_PanelLayout);
+        Att_PanelLayout.setHorizontalGroup(
+            Att_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 270, Short.MAX_VALUE)
         );
-
-        parentPanel2.add(chart1_List2, "card4");
-
-        chart2_List2.setBackground(new java.awt.Color(255, 255, 255));
-
-        javax.swing.GroupLayout chart2_List2Layout = new javax.swing.GroupLayout(chart2_List2);
-        chart2_List2.setLayout(chart2_List2Layout);
-        chart2_List2Layout.setHorizontalGroup(
-            chart2_List2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 611, Short.MAX_VALUE)
-        );
-        chart2_List2Layout.setVerticalGroup(
-            chart2_List2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 270, Short.MAX_VALUE)
+        Att_PanelLayout.setVerticalGroup(
+            Att_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        parentPanel2.add(chart2_List2, "card3");
-
-        chart3_List2.setBackground(new java.awt.Color(255, 255, 255));
-
-        javax.swing.GroupLayout chart3_List2Layout = new javax.swing.GroupLayout(chart3_List2);
-        chart3_List2.setLayout(chart3_List2Layout);
-        chart3_List2Layout.setHorizontalGroup(
-            chart3_List2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 611, Short.MAX_VALUE)
+        javax.swing.GroupLayout SexRatio_PanelLayout = new javax.swing.GroupLayout(SexRatio_Panel);
+        SexRatio_Panel.setLayout(SexRatio_PanelLayout);
+        SexRatio_PanelLayout.setHorizontalGroup(
+            SexRatio_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 638, Short.MAX_VALUE)
         );
-        chart3_List2Layout.setVerticalGroup(
-            chart3_List2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 270, Short.MAX_VALUE)
-        );
-
-        parentPanel2.add(chart3_List2, "card2");
-
-        buttonLR.setText("Select");
-        buttonLR.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttonLRActionPerformed(evt);
-            }
-        });
-
-        list2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(pieChart_Country, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(parentPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(PieChartMF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(list2, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(buttonLR, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(list1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(buttonTR, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(parentPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap())
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(buttonTR, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(list1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(PieChartMF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(parentPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonLR)
-                    .addComponent(list2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(pieChart_Country, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(parentPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(27, 27, 27))
+        SexRatio_PanelLayout.setVerticalGroup(
+            SexRatio_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(Great_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(PieChartMF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pieChart_Country, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Att_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(SexRatio_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(317, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(Great_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(SexRatio_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(PieChartMF, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 282, Short.MAX_VALUE)
+                    .addComponent(pieChart_Country, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 282, Short.MAX_VALUE)
+                    .addComponent(Att_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 282, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jScrollPane1.setViewportView(jPanel3);
@@ -294,75 +198,16 @@ public class Dashboard extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 934, Short.MAX_VALUE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1172, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE))
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 690, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void buttonTRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonTRActionPerformed
-          switch (list1.getSelectedIndex()){                 // using JCombobox to allow user to select different queries
-            case 0:
-                parentPanel1.removeAll();
-                parentPanel1.add(chart1_List1);
-                parentPanel1.repaint();
-                parentPanel1.revalidate();
-                break;
-            case 1:
-                parentPanel1.removeAll();
-                parentPanel1.add(chart2_List1);
-                parentPanel1.repaint();
-                parentPanel1.revalidate();
-                break;
-            case 2:
-                parentPanel1.removeAll();
-                parentPanel1.add(chart3_List1);
-                parentPanel1.repaint();
-                parentPanel1.revalidate();
-                break;
-            
-               
-        }   
-          
-    }//GEN-LAST:event_buttonTRActionPerformed
-
-    private void list1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_list1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_list1ActionPerformed
     
-    private void buttonLRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonLRActionPerformed
-        switch (list2.getSelectedIndex()){                 // using JCombobox to allow user to select different queries
-            case 0:
-                parentPanel2.removeAll();
-                parentPanel2.add(chart1_List2);
-                parentPanel2.repaint();
-                parentPanel2.revalidate();
-                break;
-            case 1:
-                parentPanel2.removeAll();
-                parentPanel2.add(chart2_List2);
-                parentPanel2.repaint();
-                parentPanel2.revalidate();
-                break;
-            case 2:
-                parentPanel2.removeAll();
-                parentPanel2.add(chart3_List2);
-                parentPanel2.repaint();
-                parentPanel2.revalidate();
-                break;
-            
-               
-        }   
-    }//GEN-LAST:event_buttonLRActionPerformed
-
    
     /**
      * @param args the command line arguments
@@ -403,25 +248,14 @@ public class Dashboard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Att_Panel;
+    private javax.swing.JPanel Great_Panel;
     private javax.swing.JPanel PieChartMF;
-    private javax.swing.JButton buttonLR;
-    private javax.swing.JButton buttonTR;
-    private javax.swing.JPanel chart1_List1;
-    private javax.swing.JPanel chart1_List2;
-    private javax.swing.JPanel chart2_List1;
-    private javax.swing.JPanel chart2_List2;
-    private javax.swing.JPanel chart3_List1;
-    private javax.swing.JPanel chart3_List2;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel SexRatio_Panel;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JComboBox list1;
-    private javax.swing.JComboBox list2;
-    private javax.swing.JPanel parentPanel1;
-    private javax.swing.JPanel parentPanel2;
     private javax.swing.JPanel pieChart_Country;
     // End of variables declaration//GEN-END:variables
 }

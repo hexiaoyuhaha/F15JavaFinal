@@ -14,13 +14,13 @@ import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.ui.RectangleEdge;
 import data.*;
 
-public class PieChart {
+public class MaleFemaleRingChart {
     String name;
     
-	public PieChart() {
+	public MaleFemaleRingChart() {
 	}
         
-    public PieChart(String name) {
+    public MaleFemaleRingChart(String name) {
             this.name = name;
 	}
 
@@ -57,7 +57,7 @@ public class PieChart {
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				ChartPanel chartPanel = new PieChart("MOCK_DATA-1.csv").createChart();
+				ChartPanel chartPanel = new MaleFemaleRingChart("MOCK_DATA-1.csv").createChart();
 				frame.getContentPane().add(chartPanel);
 				frame.setVisible(true);
 			}

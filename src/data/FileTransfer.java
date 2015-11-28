@@ -27,19 +27,33 @@ public class FileTransfer {
      * @param args the command line arguments
      */
     //public static void transfer(String name){
-    public static void main(String[] args) throws FileNotFoundException, IOException, Exception {
+    public static String transfer(String name) {
         // TODO code application logic here
+		try {
         int i;
+        int j = name.lastIndexOf(".");
+        String arffName = name.substring(0,j);
         //File file = new File(name);
-        File file = new File("newData.csv");
-
+        File file = new File(name);
+		System.out.println("Opened" + name + "good");
+		
         CSVLoader loader = new CSVLoader();
         loader.setSource(file);
         Instances datasrc = loader.getDataSet();
-        
+        System.out.println("Instances datasrc = loader.getDataSet();");
+		
         ArffSaver saver = new ArffSaver();
+		System.out.println(" ArffSaver saver = new ArffSaver();");
         saver.setInstances(datasrc);
-        saver.setFile(new File("Temp.arff"));
+		System.out.println("saver.setInstances(datasrc);");
+        saver.setFile(new File(arffName+".arff"));
+		System.out.println("saver.setFile(new File(arffName+\".arff\"));");
         saver.writeBatch();
+		System.out.println("saver.writeBatch();");
+		return arffName+".arff";
+		} catch (Exception e) {
+			System.out.println("FileTransfer Failed");
+		}
+        return null;
     } 
 }

@@ -18,19 +18,22 @@ import weka.core.converters.ArffLoader;
  * @author WZJ
  */
 public class J48test {
-    //public static int J48(String train, String test) throws IOException, Exception{
-    public static void main(String[] args) throws IOException, Exception{
+    //private static int[] count;
+    public static int[] J48(String train, String test) {
+   // public static void main(String[] args) throws IOException, Exception{
     //public int predictionForGraduation(String filename) throws IOException, Exception{
+        int[] count = {0,0};
+        try{
         int i;
-        int count=0;
+        //count={0,0};
         Classifier classf = new J48();
         
-        File fileTrain = new File("TrainDatav2.arff");
+        File fileTrain = new File(train);
         ArffLoader arl = new ArffLoader();
         arl.setFile(fileTrain);
         Instances trainSet = arl.getDataSet();
         
-        File fileTest = new File("newData.arff");
+        File fileTest = new File(test);
         arl.setFile(fileTest);
         Instances testSet = arl.getDataSet();
         
@@ -46,13 +49,16 @@ public class J48test {
                 double label = classf.classifyInstance(testSet.instance(i));
                 System.out.println(testSet.instance(i));
                 if(label == 1){
-                    count++;
+                    count[1]++;
                     System.out.println(i);
                 }
+                count[0]++;
             }
         }
         System.out.println("\n"+count);
-        
-        //return count;
+        count[0] = count[0] - count[1];
+        return count;
+        }catch(Exception e){}
+        return count;
     }
 }

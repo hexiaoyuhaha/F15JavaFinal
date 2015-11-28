@@ -27,23 +27,32 @@ import org.jfree.ui.RectangleEdge;
 import util.NameWithValueList;
 
 import util.dual;
+import data.*;
 /**
  *
  * @author zhang
  */
-public class PersonalDual {
+public class BarLineChart {
+    String name;
+
+    public BarLineChart() {
+    }
     
-    public PersonalDual() {
-	}
+    public BarLineChart(String name) {
+        this.name = name;
+    }
+    
     public ChartPanel createChart() {
-        String[] categories = { "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014",
-				"2015" };
+        DataInterface data = new DataInterface(name);
+        String[] categories = { "2007", "2008", "2009", "2010", "2011", "2012", "2013"};
         
 //        Vector<Serie> seriesEnrolledNum = new Vector<Serie>();
 //        Vector<Serie> seriesDroppingNum = new Vector<Serie>();
         
-        int[] EnrolledNum = { 20, 30, 40 ,48, 55, 60, 50, 68, 78, 100 };
-        int[] DroppingNum = { 2, 2, 3, 8, 4, 5, 6, 3, 3, 2 };
+        int[] EnrolledNum = data.getNumOfEnrolledByYear(2007,2013);
+        int [] DroppingNum = data.getNUmOfDroppedByYear(2007,2013);
+//        int[] EnrolledNum = {30, 40 ,48, 55, 60, 50, 68, 78, 100 };
+//        int[] DroppingNum = { 2, 3, 8, 4, 5, 6, 3, 3, 2 };
         
 //        seriesEnrolledNum.add(new Serie("EnrolledNum", EnrolledNum));
         ArrayList<NameWithValueList> seriesDroppingNum = new ArrayList<NameWithValueList>();
@@ -70,7 +79,7 @@ public class PersonalDual {
         LineAndShapeRenderer lineRenderer = new LineAndShapeRenderer();
 		lineRenderer.setSeriesPaint(0, new Color(255, 185, 1));
 		lineRenderer.setBaseShapesVisible(true);  
-		categoryplot.setRenderer(1, lineRenderer);
+		categoryplot.setRenderer(1,lineRenderer);
                 
                 categoryplot.setDatasetRenderingOrder(DatasetRenderingOrder.FORWARD);
 		chart.getLegend().setPosition(RectangleEdge.TOP); 
@@ -91,8 +100,7 @@ public class PersonalDual {
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				// ����ͼ��
-				ChartPanel chartPanel = new PersonalDual().createChart();
+				ChartPanel chartPanel = new BarLineChart("MOCK_DATA.csv").createChart();
 				frame.getContentPane().add(chartPanel);
 				frame.setVisible(true);
 			}

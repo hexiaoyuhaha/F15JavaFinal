@@ -22,13 +22,13 @@ import data.*;
  *
  * @author linqiaochu
  */
-public class AttendancePieChart {
+public class AttendanceRingChart {
     String name;
 
-    public AttendancePieChart() {
+    public AttendanceRingChart() {
     }
 
-    public AttendancePieChart(String name) {
+    public AttendanceRingChart(String name) {
         this.name = name;
     }
     
@@ -43,7 +43,7 @@ public class AttendancePieChart {
     }
 
     public ChartPanel createChart() {
-        JFreeChart chart = ChartFactory.createPieChart("Contents of Students Attendance Ratio", createDataset());
+        JFreeChart chart = ChartFactory.createRingChart("Contents of Students Attendance Ratio", createDataset(),true, false,false);
 
         dual.setPieRender(chart.getPlot());
 
@@ -64,7 +64,7 @@ public class AttendancePieChart {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                ChartPanel chartPanel = new AttendancePieChart("MOCK_DATA-1.csv").createChart();
+                ChartPanel chartPanel = new AttendanceRingChart("MOCK_DATA-1.csv").createChart();
                 frame.getContentPane().add(chartPanel);
                 frame.setVisible(true);
             }

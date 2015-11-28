@@ -262,24 +262,24 @@ public class DataInterface {
     }
 
     /**
-     * Get number
-     * @return
+     * Get number of male by major
+     * @return number of male by major
      */
     public int[] getNumOfMaleByMajor() {
         return getNumByMajor("Male");
     }
     
     /**
-     *
-     * @return
+     * Get number of female by major
+     * @return number of female by major
      */
     public int[] getNumOfFemaleByMajor() {
         return getNumByMajor("Male");
     }
  
     /**
-     *
-     * @return
+     * Get major name
+     * @return name
      */
     public String[] getMajorName() {
         String[] names = {"MSIT", "Global MISM", "Financial Engineering", "MS in CS", "MBA", "MSIPPM"};
@@ -287,10 +287,10 @@ public class DataInterface {
     }
     
     /**
-     *
+     * Get number of dropped students by year.
      * @param startYear
      * @param endYear
-     * @return
+     * @return an integer array of students.
      */
     public int[] getNUmOfDroppedByYear(int startYear, int endYear) {
         int i,j;
@@ -307,10 +307,14 @@ public class DataInterface {
             year = Integer.parseInt(divide[i][9]);
             for(j = 0; j<yearArray.length; j++) {
                 if(year==(startYear+j)) {
-                    if(divide[i][22].equals("No")) {
-                        yearArray[j]++;
-                    }
-                    
+					try{
+						if(divide[i][22].equals("No")) {
+							yearArray[j]++;
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
+						System.out.println("Index out of boundary in last col");
+					}
                 }
             }     
         }
@@ -331,6 +335,10 @@ public class DataInterface {
                 
             }
             output.write(endYear+1+"");
+            output.write(",");
+            output.write("?");
+            output.newLine();
+            output.write(endYear+2+"");
             output.write(",");
             output.write("?");
         }catch(IOException e){}

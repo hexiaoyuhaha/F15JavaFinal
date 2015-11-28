@@ -61,12 +61,12 @@ public class dual {
     	private static String NO_DATA_MSG = "No data";
 	private static Font FONT = new Font("Arial", Font.PLAIN, 12);
 	public static Color[] CHART_COLORS = {
-			new Color(255,0,0), new Color(92,92,97), new Color(144,237,125), new Color(255,188,117),
-            new Color(153,158,255),  new Color(253,236,109), new Color(128,133,232),
-            new Color(158,90,102),new Color(255, 204, 102)  };
+			  new Color(7, 114, 161),new Color(255, 135, 0),
+              new Color(74, 17, 174), new Color(255, 126, 64),new Color(77, 222, 0)
+             };
 //	public static Color[] CHART_COLORS = {
-//			new Color(240, 255, 240),new Color(255, 245, 238),
-//                        new Color(255,117,153), new Color(92,92,97), new Color(144,237,125), 
+			  
+//                      new Color(255,117,153), new Color(92,92,97), new Color(144,237,125), 
 //                        new Color(255,188,117),new Color(153,158,255), new Color(253,236,109), 
 //                        new Color(128,133,232),new Color(158,90,102),new Color(255, 204, 102) };
 

@@ -52,7 +52,7 @@ public class S3Helper {
 	
 	public void upLoadFile(String uploadFileName) throws IOException {
 		System.out.println("Uploading a new object to S3 from a file\n");
-		File file = new File(uploadFileName);
+		File file = new File("data/" + uploadFileName);
 		s3client.putObject(new PutObjectRequest(bucketName, uploadFileName, file));
     }
 		
