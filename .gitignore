@@ -1,0 +1,9 @@
+/F15JavaFinal/nbproject/private/
+/nbproject/private/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
