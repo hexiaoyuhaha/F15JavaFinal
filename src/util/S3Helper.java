@@ -27,7 +27,7 @@ public class S3Helper {
 	AmazonS3 s3client;
 	
 	public S3Helper() {
-		BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAIE5JYSJPIS44UITA", "oep3o0+IDvjMLR28MtNnE8BMcuE5hjUkWTMJJxJz");
+		BasicAWSCredentials awsCreds = new BasicAWSCredentials("", "");
 		s3client = new AmazonS3Client(awsCreds);
 
 //        s3client = new AmazonS3Client(new ProfileCredentialsProvider());	
